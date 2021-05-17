@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body onload="reaload()">
+    <img src="img/titulo1.png" alt="800px">
+
+    <form id="frmBuscar">
+        <h3>Buscar</h3>
+        <ul>
+            <li>
+                <label for="nombre">ID / Nombre:</label>
+                <input type="text" id="busID" value="">
+            </li>
+            <li>
+                <button type="submit" id="botonEnviar" class="myButton" style="display: block;
+                justify-content: center;
+                align-items: center;
+                margin: auto;">Buscar</button>
+            </li>
+        </ul>
+    </form>
+    <br><br>
+    <form id="frmCantidad">
+        <h3>Buscar Cantidad</h3>
+        <ul>
+            <br>
+            <li>
+                <label for="nombre">Cantidad:</label>
+                <input type="text" id="busCan" value="">
+            </li>
+            <li>
+                <button type="submit" id="botonEnviar" class="myButton" style="display: block;
+                justify-content: center;
+                align-items: center;
+                margin: auto;">Cantidad</button>
+
+            </li>
+            <hr>
+
+        </ul>
+    </form>
+    <br>
+
+    <form>
+        <button type="submit" class="myButton" style="display: block;
+            justify-content: center;
+            align-items: center;
+            margin: auto;">Borrar contenido</button>
+
+    </form>
+    <div class="contenido2">
+        <h3>Desea visualizar toda la lista</h3>
+        <button id="miBoton" class="myButton btn" style="display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;">Lista Pokemons</button>
+    </div>
+    <br><br>
+    <!--se utliza para imprimir toda la lista de los pokemons-->
+    <div id="seccion_pokemon" class="seccion_pokemon" class="caja2">
+
+    </div>
+    <br><br>
+
+    <!--se utliza para imprimir un solo pokemons Por ID o Nombre-->
+    <div class="caja" id="lista-pokemon">
+        <h6 class="h6"></h6>
+        <img id="imges" src="" width="40px" alt="">
+        <p class="texto"></p>
+        <h5></h5>
+        <h4 id="habilidades"></h4>
+        <div id="ulListado"></div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
+

@@ -1,0 +1,158 @@
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid rgb(161, 115, 77);
+    border-radius: 1em;
+    background-color: rgb(83, 191, 253);
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid rgba(56, 46, 104, 0.178)
+}
+
+input:focus,
+textarea:focus {
+    border-color: rgb(49, 207, 49);
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+button {
+    padding-left: 10px;
+    margin-left: 13em;
+}
+
+#msj {
+    margin: 0 auto;
+    margin-top: 2em;
+    width: 400px;
+}
+
+.seccion_pokemon {
+    display: block;
+    width: 100%;
+
+}
+
+
+img {
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+
+.seccion_pokemon {
+    background-color: #b2d18ed4;
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+    -webkit-box-shadow: 2px 10px 10px 10px #8b8b8c;
+    box-shadow: 2px 10px 10px 10px #8b8b8c;
+}
+
+.caja {
+
+    /*
+    padding: 20px;
+    margin: 10px;
+    width: 150px;
+    */
+    background-color: #b2d18ed4;
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+    -webkit-box-shadow: 2px 10px 10px 10px #8b8b8c;
+    box-shadow: 2px 10px 10px 10px #8b8b8c;
+}
+
+.texto {
+    color: #0c92ac;
+    font-weight: bold;
+    padding: 0 5px;
+    border: 2px solid #abecf9;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.h6 {
+    color: #1c0583;
+    text-align: center;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.h5 {
+    color: #0d8a32;
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.li {
+    text-align: center;
+}
+
+.contenido {
+    margin: auto;
+    display: table;
+    padding: 15px;
+}
+
+.myButton {
+    box-shadow: 0px 1px 23px 10px #9fb4f2;
+    background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+    background-color: #7892c2;
+    border-radius: 32px;
+    border: 2px solid #4e6096;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 12px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #283966;
+}
+
+.myButton:hover {
+    background: #9198af;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
